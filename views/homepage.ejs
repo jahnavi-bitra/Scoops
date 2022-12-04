@@ -1,0 +1,88 @@
+<html>
+		<head>
+			<title>Scoops</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width" initial-scale=1>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		</head>
+		<style>
+			body{
+				background-color: #1e1c2a;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			div{
+				color: lightpink;
+				text-align: center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			}
+			img{
+				height: 150px;
+                width: 200px;
+				padding-bottom: 20px;
+			}
+			button{
+				margin-top: 10px;
+			}
+		</style>
+        <body>
+			<div class="container mt-3">
+				<div class="row" >
+					<div class="col-lg-1"><i class="bi bi-list" style="font-size: 2rem;"></i></div>
+					<div class="col-lg-1"><i class="bi bi-house-door-fill" style="font-size: 2rem;"></i></div>
+					<div class="col-lg-8"><h2 class="display-6" style="color:lightpink;font-weight:500;">Scoops</h2></div>
+					<div class="col-lg-1"><i class="bi bi-person-circle" style="font-size: 2rem;"></i></div>
+					<div class="col-lg-1"><i class="bi bi-cart-fill" style="font-size: 2rem;"></i></div>
+                <div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 ">
+						<img src="https://www.halfbakedharvest.com/wp-content/uploads/2022/08/No-Churn-Vanilla-Bean-Olive-Oil-Ice-Cream-1.jpg" alt="">
+						<b><br>Vanilla Bean Olive Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="300/-"><br><button type="submit" class="btn btn-success" name="item" value="Vanilla Bean Olive IceCream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 ">
+						<img src="https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1186_1_1436970676.jpg?tr=w-800,h-1066" alt="">
+						<b><br>Special Chocolate Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="450/-">
+							<br><button type="submit" class="btn btn-success" name="item" value="Special Chocolate Ice Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-55650,resizemode-1,msid-80725790/industry/cons-products/food/boutique-ice-cream-makers-seeing-a-windfall-as-they-increase-engagement-with-consumers-directly.jpg" alt="">
+						<b><br>Boutique Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="350/-"><br><button type="submit" class="btn btn-success" name="item" value="Boutique Ice Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<img src="https://www.wellplated.com/wp-content/uploads/2016/08/Homemade-Banana-Ice-Cream.jpg" alt="">
+						<b><br>Banana Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="300/-"><br><button type="submit" class="btn btn-success" name="item" value="Banana Ice Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" alt="">
+						<b><br> Cone Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="50/-"><br><button type="submit" class="btn btn-success" name="item" value=" Cone Ice Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<img src="https://www.acouplecooks.com/wp-content/uploads/2022/10/Pumpkin-Ice-Cream-008.jpg" alt="">
+						<b><br>Pumpkin Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="250/-"><br><button type="submit" class="btn btn-success" name="item" value="Pumpkin Ice Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<img src="http://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/icecream-com/recipes/dreyer%27s/cards/Dreyers-Teddy-Bear-Ice-Cream-Cones-280x330-Recipe-Card.jpg" alt="">
+						<b><br>Teddy Bear Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="150/-"><br><button type="submit" class="btn btn-success" name="item" value="Teddy Bear Ice Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<img src="https://assets.epicurious.com/photos/5747b49a5a5fbbae31ae4aed/1:1/w_2560%2Cc_limit/shutterstock_303021722.jpg" alt="">
+						<b><br>Pistachio Ice Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="400/-"><br><button type="submit" class="btn btn-success" name="item" value="Pistachio Ice Cream" >ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					
+					</div>
+                </div><br><br>
+				<form action="cart" method="GET">
+					<center><input type="submit" class="btn btn-warning" style="width:30%;font-weight: bold; color: black;" value="GO TO CART"></center>
+				</form><br><br>
+            </div>
+		</body>
+</html>
